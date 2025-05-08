@@ -10,7 +10,9 @@ const Hero = () => {
           <div className="col-xl-12 col-lg-12">
             <div className="card">
               <div className="card-header d-flex justify-content-between align-items-center gap-1 mb-3">
-                <h4 className="card-title flex-grow-1 fs-4"><Link to="/">Dashboard</Link> | Hero</h4>
+                <h4 className="card-title flex-grow-1 fs-4">
+                  <Link to="/">Dashboard</Link> | Hero
+                </h4>
               </div>
 
               <div className="card-body">
@@ -77,37 +79,33 @@ const Hero = () => {
                 </div>
 
                 <div className="row">
-                  <div className="col-lg-6">
-                    <div className="col-lg-12">
-                      <form>
-                        <div className="mb-3">
-                          <label htmlFor="product-name" className="form-label">
-                            Text Three
-                          </label>
-                          <input
-                            type="text"
-                            id="product-name"
-                            className="form-control"
-                          />
-                        </div>
-                      </form>
-                    </div>
-
-                    <div className="col-lg-12">
+                  <div className="col-lg-12">
+                    <form>
                       <div className="mb-3">
-                        <label htmlFor="description" className="form-label">
-                          Description Three
+                        <label htmlFor="product-name" className="form-label">
+                          Text Three
                         </label>
-                        <textarea
-                          className="form-control bg-light-subtle"
-                          id="description"
-                          rows="7"
-                        ></textarea>
+                        <input
+                          type="text"
+                          id="product-name"
+                          className="form-control"
+                        />
                       </div>
-                    </div>
+                    </form>
                   </div>
 
-                  <div className="col-lg-6"></div>
+                  <div className="col-lg-12">
+                    <div className="mb-3">
+                      <label htmlFor="description" className="form-label">
+                        Description Three
+                      </label>
+                      <textarea
+                        className="form-control bg-light-subtle"
+                        id="description"
+                        rows="7"
+                      ></textarea>
+                    </div>
+                  </div>
                 </div>
 
                 <div className="p-3  my-3 rounded">

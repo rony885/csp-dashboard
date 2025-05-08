@@ -9,8 +9,7 @@ const Footer = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-12 text-center">
-            {new Date().getFullYear()} &copy; Fusion Trade. Designed & Developed
-            by{" "}
+            {new Date().getFullYear()} &copy; CSP. Designed & Developed by{" "}
             {/* <Icon
               icon="iconamoon:heart-duotone"
               className="fs-18 align-middle text-danger"
