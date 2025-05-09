@@ -10,7 +10,9 @@ const About = () => {
           <div className="col-xl-12 col-lg-12">
             <div className="card">
               <div className="card-header d-flex justify-content-between align-items-center gap-1 mb-3">
-                <h4 className="card-title flex-grow-1 fs-4"><Link to="/">Dashboard</Link> | About</h4>
+                <h4 className="card-title flex-grow-1 fs-4">
+                  <Link to="/">Dashboard</Link> | About
+                </h4>
               </div>
 
               <div className="card-body">
@@ -212,7 +214,6 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>

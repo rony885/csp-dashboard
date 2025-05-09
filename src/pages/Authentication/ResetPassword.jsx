@@ -115,7 +115,6 @@ const ResetPassword = () => {
                 />
               </div>
             </div>
-            {/* <!-- end card --> */}
           </div>
         </div>
       </div>

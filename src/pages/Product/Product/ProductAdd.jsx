@@ -10,7 +10,9 @@ const ProductAdd = () => {
           <div className="col-xl-12 col-lg-12">
             <div className="card">
               <div className="card-header d-flex justify-content-between align-items-center gap-1 mb-3">
-                <h4 className="card-title flex-grow-1 fs-4"><Link to="/">Dashboard</Link> | Add Product</h4>
+                <h4 className="card-title flex-grow-1 fs-4">
+                  <Link to="/">Dashboard</Link> | Add Product
+                </h4>
 
                 <Link to="/product" className="btn btn-sm btn-primary fs-4">
                   Product List
@@ -74,7 +76,7 @@ const ProductAdd = () => {
                           to="#!"
                           className="btn btn-outline-secondary w-100"
                         >
-                          Add Product 
+                          Add Product
                         </Link>
                       </div>
                       <div className="col-lg-2">

@@ -13,8 +13,8 @@ const ProductCategoryList = () => {
           <div className="col-xl-12">
             <div className="card">
               <div className="card-header d-flex justify-content-between align-items-center gap-1 mb-3">
-                <h4 className="card-title flex-grow-1 fs-4"><Link to="/">Dashboard</Link> | 
-                  Product Category List
+                <h4 className="card-title flex-grow-1 fs-4">
+                  <Link to="/">Dashboard</Link> | Product Category List
                 </h4>
 
                 <Link
@@ -27,11 +27,10 @@ const ProductCategoryList = () => {
 
               <div>
                 <div className="table-responsive px-2">
-                <input
+                  <input
                     type="search"
                     className="form-control mb-1"
                     placeholder="Search..."
-                
                     defaultValue=""
                   />
                   <table className="table align-middle mb-0 table-hover table-centered">

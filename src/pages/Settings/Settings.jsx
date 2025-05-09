@@ -10,7 +10,9 @@ const Settings = () => {
           <div className="col-xl-12 col-lg-12">
             <div className="card">
               <div className="card-header d-flex justify-content-between align-items-center gap-1 mb-3">
-                <h4 className="card-title flex-grow-1 fs-4"><Link to="/">Dashboard</Link> | Settings</h4>
+                <h4 className="card-title flex-grow-1 fs-4">
+                  <Link to="/">Dashboard</Link> | Settings
+                </h4>
               </div>
 
               <div className="card-body">
@@ -201,8 +203,6 @@ const Settings = () => {
                       </form>
                     </div>
                   </div>
-
-                
                 </div>
 
                 <div className="p-3  my-3 rounded">

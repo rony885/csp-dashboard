@@ -35,10 +35,7 @@ const SignIn = () => {
                   </p>
 
                   <div className="mb-5">
-                    <form
-                      action="https://techzaa.in/larkon/admin/index.html"
-                      className="authentication-form"
-                    >
+                    <form className="authentication-form">
                       <div className="mb-3">
                         <label className="form-label" for="example-email">
                           Email

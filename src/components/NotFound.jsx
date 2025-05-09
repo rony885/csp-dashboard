@@ -5,10 +5,7 @@ import { Link } from "react-router-dom";
 const NotFound = () => {
   return (
     <div className="page-content">
-      {/* <!-- Start Container Fluid --> */}
       <div className="container-xxl">
-        {/* <!-- Start here.... --> */}
-
         <div className="row align-items-center justify-content-center">
           <div className="col-xl-5">
             <div className="card">
@@ -37,15 +34,10 @@ const NotFound = () => {
                   </div>
                 </div>
               </div>
-              {/* <!-- end card-body --> */}
             </div>
-            {/* <!-- end card --> */}
           </div>
-          {/* <!-- end col --> */}
         </div>
-        {/* <!-- end row --> */}
       </div>
-      {/* <!-- End Container Fluid --> */}
 
       <Footer />
     </div>

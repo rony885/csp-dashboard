@@ -31,7 +31,6 @@ const SliderList = () => {
                     type="search"
                     className="form-control mb-1"
                     placeholder="Search..."
-                 
                     defaultValue=""
                   />
                   <table className="table align-middle mb-0 table-hover table-centered">
